@@ -1,4 +1,4 @@
-ANID,Chemgrp,Site_Country,Site_State,Site_Name,K,Ca,Ti,Mn,Fe,Zn,Rb,Sr,Y,Zr,Nb,Th
+Sample,Group,Site_Country,Site_State,Site_Name,K,Ca,Ti,Mn,Fe,Zn,Rb,Sr,Y,Zr,Nb,Th
 AJE006,SHM,Argentina,Catamarca,Salar del Hombre Muerto,28843.2,1577.6,345.4,1823.4,3333.7,95.6,1058.5,1.9,128.3,19.9,74.1,4.4
 AJE018,SHM,Argentina,Catamarca,Salar del Hombre Muerto,35681.9,1489.5,266.4,2184.9,3475.8,104.2,1105.5,1.7,137.6,20.5,77.8,0
 AJE026,SHM,Argentina,Catamarca,Salar del Hombre Muerto,35062.8,1592.6,297.2,2133.6,3437.7,98.8,1061.9,1.1,130,17.4,74.6,0
