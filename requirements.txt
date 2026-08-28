@@ -1,0 +1,11 @@
+# Exact-pinned dependencies for long-term archival reproducibility (Zenodo/GitHub).
+# Built and tested against Python 3.11.9 — see environment.yaml for the conda equivalent.
+numpy==1.26.4
+pandas==2.2.1
+plotly==5.18.0
+ipywidgets==8.1.2
+jupyterlab==4.1.5
+jupyterlab-widgets==3.0.10
+widgetsnbextension==4.0.10
+anywidget==0.9.13
+voila==0.5.7

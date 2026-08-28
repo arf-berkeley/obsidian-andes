@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this notebook or associated data, please cite it as below."
+title: "Andean Obsidian Geochemical Sourcing Notebook"
+authors:
+  - family-names: Tripcevich
+    given-names: Nico
+version: "1.0.0"
+date-released: 2026-08-28
+license: "MIT"
