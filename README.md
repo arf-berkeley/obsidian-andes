@@ -1,5 +1,8 @@
 # Andean Obsidian Geochemical Sourcing Notebook
 
+[![Voila](https://img.shields.io/badge/launch-Voila-blue.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fobsidian_geochem.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fobsidian_geochem.ipynb)
+
 An interactive notebook for XRF sourcing of obsidian from the Andes of South America, portable across VS Code, classic Jupyter, Voilà, and Binder.
 
 ## Reproducible environment
