@@ -7,7 +7,8 @@ An interactive notebook for XRF sourcing of obsidian from the Andes of South Ame
 
 ## How to use
 ### Voilà
-The simplest way to use this app is to launch Voila
+The simplest way to use this app is with Voila
+
 [![Voila](https://img.shields.io/badge/launch-Voila-blue.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fobsidian_geochem.ipynb)
 ```bash
 voila notebooks/obsidian_geochem.ipynb
