@@ -1,0 +1,35 @@
+# Conda/Miniconda/Binder environment for Andean Obsidian Geochemistry Analysis.
+# Deliberately UNPINNED (minimum versions only) so this solves cleanly on whatever
+# Python/OS/kernel is available -- local Miniconda, WSL, another Linux distro, or
+# Binder's build image -- rather than requiring one exact, potentially stale build.
+# NOTE: This filename must stay exactly "environment.yml" (not ".yaml") because
+# Binder's repo2docker only auto-detects the ".yml" extension.
+
+name: obsidian-geochem
+channels:
+  - conda-forge
+
+dependencies:
+  # Core Python (any recent 3.x; let conda pick what's available)
+  - python>=3.9
+
+  # Data manipulation & analysis
+  - numpy>=1.24
+  - pandas>=2.0
+
+  # Visualization (Plotly)
+  - plotly>=5.10
+
+  # Jupyter & widgets
+  - jupyterlab>=4.0
+  - ipywidgets>=8.0
+  - jupyterlab_widgets>=3.0
+  - widgetsnbextension>=4.0
+
+  # Voila app rendering (also used to serve this notebook from Binder)
+  - voila>=0.5
+
+  # pip packages (if needed beyond conda)
+  - pip
+  - pip:
+    - anywidget>=0.9
