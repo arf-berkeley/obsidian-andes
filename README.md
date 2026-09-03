@@ -7,14 +7,15 @@ An interactive notebook for XRF sourcing of obsidian from the Andes of South Ame
 
 ## How to use
 ### Voilà
+The simplest way to use this app is to launch Voila
 [![Voila](https://img.shields.io/badge/launch-Voila-blue.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fobsidian_geochem.ipynb)
 ```bash
-The simplest way to use this app is with Voila
 voila notebooks/obsidian_geochem.ipynb
 ```
 
 ### Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fobsidian_geochem.ipynb)
+
 Binder allows you to run and edit the code in a browser. Launch the repository on [mybinder.org](https://mybinder.org) and either open the notebook directly in JupyterLab, or append `/voila/render/notebooks/obsidian_geochem.ipynb` to the Binder URL to launch it as a Voilà app. The root `environment.yml` (minimum-version constraints, including `voila`) is used to build the Binder image — `repo2docker` only recognizes the `.yml` extension, so keep this filename exact.
 
 ### IDE (e.g., VS Code)
