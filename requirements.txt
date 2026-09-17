@@ -5,7 +5,7 @@
 # for the conda equivalent.
 numpy>=1.24
 pandas>=2.0
-plotly>=5.10
+plotly>=5.18.0
 ipywidgets>=8.0
 jupyterlab>=4.0
 jupyterlab-widgets>=3.0
