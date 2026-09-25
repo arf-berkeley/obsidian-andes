@@ -3,7 +3,7 @@
 [![Voila](https://img.shields.io/badge/launch-Voila-blue.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fobsidian_geochem.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fobsidian_geochem.ipynb)
 
-This is a free, interactive tool for **visually sourcing obsidian artifacts from the Andes** using XRF (X-ray fluorescence) geochemical data. You upload your elemental concentration data, and the notebook compares it against a table of chemistry from known Andean obsidian sources to help you identify where your artifacts came from. One Standard Deviation ellipses (containing 68% of values) are shown for each source. 
+This is an interactive tool for **visually sourcing obsidian artifacts from the Andes** using XRF (X-ray fluorescence) geochemical data. You upload your elemental concentration data, and the notebook compares it against a table of chemistry from known Andean obsidian sources to help you identify where your artifacts came from. One Standard Deviation ellipses (containing 68% of values) are shown for each source. 
 
 **No coding experience is required to use this tool.** You can run it entirely in your web browser without installing anything.
 
