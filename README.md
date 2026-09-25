@@ -25,16 +25,16 @@ Click one of the buttons below to launch the tool directly in your browser:
 
 - **Your data** in a CSV (spreadsheet) file with elemental concentrations from XRF analysis. The notebook will walk you through uploading it.
 
-- **Source Data** in a CSV (spreadsheet) file with elemental concentrations from Andean obsidian sources preferably from a calibrated XRF intrument. The notebook will walk you through uploading it.
+- **Source Data** in a CSV (spreadsheet) file with elemental concentrations from Andean obsidian sources preferably from a calibrated XRF intrument. 
 
 - **Source Location Data** in a CSV (spreadsheet) file with fields containing Latitude and Longitude for sources in the Andes and Group field that precisely matches the Source Data group field.
 
 ---
 ## How to use
 
-- select sources within a few 100 km of your study area
+- Select sources within the larger region of your study area.
 
-- Use buttons turn on / off sample labels or show the points used to create the source ellipses 
+- Use buttons turn on / off sample labels or show the points used to create the source ellipses.
 
 - Use the Camera icon in the plot views to export Scalable Vector Graphics (SVG). These can be converted to PDF or modified in an illustration software.
  
