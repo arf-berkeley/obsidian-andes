@@ -19,6 +19,7 @@ dependencies:
 
   # Visualization (Plotly)
   - plotly>=5.10
+  - kaleido==0.2.1
 
   # Jupyter & widgets
   - jupyterlab>=4.0
