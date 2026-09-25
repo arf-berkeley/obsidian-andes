@@ -3,7 +3,7 @@
 [![Voila](https://img.shields.io/badge/launch-Voila-blue.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fobsidian_geochem.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fobsidian_geochem.ipynb)
 
-This is a free, interactive tool for **visually sourcing obsidian artifacts from the Andes** using XRF (X-ray fluorescence) geochemical data. You upload your elemental concentration data, and the notebook compares it against a reference database of known Andean obsidian sources to help you identify where your artifacts came from.
+This is a free, interactive tool for **visually sourcing obsidian artifacts from the Andes** using XRF (X-ray fluorescence) geochemical data. You upload your elemental concentration data, and the notebook compares it against a table of chemistry from known Andean obsidian sources to help you identify where your artifacts came from. One Standard Deviation ellipses (containing 68% of values) are shown for each source. 
 
 **No coding experience is required to use this tool.** You can run it entirely in your web browser without installing anything.
 
@@ -13,7 +13,7 @@ This is a free, interactive tool for **visually sourcing obsidian artifacts from
 
 Click one of the buttons below to launch the tool directly in your browser:
 
-- **[Launch the App](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fobsidian_geochem.ipynb)** — Opens a clean, app-like interface. Best for most users. Just wait for it to load (this can take a minute or two the first time), then follow the on-screen instructions.
+- **[Launch the Voila App](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fobsidian_geochem.ipynb)** — Opens a clean, app-like interface. Best for most users. Just wait for it to load (this can take a minute or two the first time), then follow the on-screen instructions.
 
 - **[Launch in JupyterLab](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fobsidian_geochem.ipynb)** — Opens the full notebook environment if you want to see or modify the underlying code.
 
@@ -24,12 +24,20 @@ Click one of the buttons below to launch the tool directly in your browser:
 ## What you'll need
 
 - **Your data** in a CSV (spreadsheet) file with elemental concentrations from XRF analysis. The notebook will walk you through uploading it.
-- A web browser. That's it for the cloud version.
 
 - **Source Data** in a CSV (spreadsheet) file with elemental concentrations from Andean obsidian sources preferably from a calibrated XRF intrument. The notebook will walk you through uploading it.
 
 - **Source Location Data** in a CSV (spreadsheet) file with fields containing Latitude and Longitude for sources in the Andes and Group field that precisely matches the Source Data group field.
 
+---
+## How to use
+
+- select sources within a few 100 km of your study area
+
+- Use buttons turn on / off sample labels or show the points used to create the source ellipses 
+
+- Use the Camera icon in the plot views to export Scalable Vector Graphics (SVG). These can be converted to PDF or modified in an illustration software.
+ 
 ---
 
 ## Installing on your own computer (optional)
