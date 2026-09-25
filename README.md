@@ -3,9 +3,7 @@
 [![Voila](https://img.shields.io/badge/launch-Voila-blue.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fobsidian_geochem.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/obsidian-andes/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fobsidian_geochem.ipynb)
 
-## What is this?
-
-This is a free, interactive tool for **sourcing obsidian artifacts from the Andes** using XRF (X-ray fluorescence) geochemical data. You upload your elemental concentration data, and the notebook compares it against a reference database of known Andean obsidian sources to help you identify where your artifacts came from.
+This is a free, interactive tool for **visually sourcing obsidian artifacts from the Andes** using XRF (X-ray fluorescence) geochemical data. You upload your elemental concentration data, and the notebook compares it against a reference database of known Andean obsidian sources to help you identify where your artifacts came from.
 
 **No coding experience is required to use this tool.** You can run it entirely in your web browser without installing anything.
 
@@ -28,6 +26,10 @@ Click one of the buttons below to launch the tool directly in your browser:
 - **Your data** in a CSV (spreadsheet) file with elemental concentrations from XRF analysis. The notebook will walk you through uploading it.
 - A web browser. That's it for the cloud version.
 
+- **Source Data** in a CSV (spreadsheet) file with elemental concentrations from Andean obsidian sources preferably from a calibrated XRF intrument. The notebook will walk you through uploading it.
+
+- **Source Location Data** in a CSV (spreadsheet) file with fields containing Latitude and Longitude for sources in the Andes and Group field that precisely matches the Source Data group field.
+
 ---
 
 ## Installing on your own computer (optional)
@@ -46,11 +48,11 @@ jupyter lab
 
 This will open the notebook in your browser. Navigate to `notebooks/obsidian_geochem.ipynb` and click **Run > Run All Cells** (or the ▶▶ button).
 
-### Alternative: VS Code
+### Alternative: Run in a local IDE like VS Code
 
-If you already use VS Code:
+If you already use a local code editor:
 
-1. Open this folder in VS Code.
+1. Open this folder in code editor file browser.
 2. Set up the conda environment as above.
 3. Open `notebooks/obsidian_geochem.ipynb`, select the `obsidian-geochem` kernel when prompted, and run all cells.
 
