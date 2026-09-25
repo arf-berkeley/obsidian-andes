@@ -34,7 +34,7 @@ Click one of the buttons below to launch the tool directly in your browser:
 
 - Select sources within the larger region of your study area.
 
-- Use buttons turn on / off sample labels or show the points used to create the source ellipses.
+- Use buttons turn on / off sample labels or show the points used to create the 1-SD source ellipses.
 
 - Use the Camera icon in the plot views to export Scalable Vector Graphics (SVG). These can be converted to PDF or modified in an illustration software.
  
