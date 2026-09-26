@@ -33,5 +33,3 @@ dependencies:
   - pip
   - pip:
     - anywidget>=0.9
-    - kaleido>=1
-    - ipyfilechooser
