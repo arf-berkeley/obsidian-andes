@@ -9,7 +9,7 @@ This is an interactive tool for **visually sourcing obsidian artifacts from the 
 
 ---
 
-## Quickest way to get started (no installation needed)
+## Quick start (no installation needed)
 
 Click one of the buttons below to launch the tool directly in your browser:
 
@@ -23,7 +23,7 @@ Click one of the buttons below to launch the tool directly in your browser:
 
 ## What you'll need
 
-- **Your data** in a CSV (spreadsheet) file with elemental concentrations from XRF analysis. The notebook will walk you through uploading it.
+- **Your data** in a CSV (spreadsheet) file with PPM elemental concentrations from XRF analysis. The notebook will walk you through uploading it. [Use this repo to convert a Bruker results.csv to PPM](https://github.com/arf-berkeley/bruker-xrf-ppm-plot/tree/main) 
 
 - **Source Data** in a CSV (spreadsheet) file with elemental concentrations from Andean obsidian sources preferably from a calibrated XRF intrument. 
 
